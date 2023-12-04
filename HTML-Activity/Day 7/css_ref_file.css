@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+  /* Add your font-family, margin, and padding here */
+  background-color: grey;
+}
+
+/* Header Styles */
+header {
+  /* Add your background-color and padding here */
+}
+
+.site-title {
+  /* Add your color, font-size, and margin here */
+}
+
+.navigation {
+  /* Add your list-style-type, padding, and margin here */
+}
+
+.navigation li {
+  /* Add your display and margin-right here */
+}
+
+.navigation li a {
+  /* Add your color and text-decoration here */
+}
+
+/* Hero Section Styles */
+#hero {
+  /* Add your background-image, background-size, background-position, padding, text-align, and color here */
+}
+
+.hero-title {
+  /* Add your font-size, margin-top, and margin-bottom here */
+}
+
+.hero-subtitle {
+  /* Add your font-size, margin-top, and margin-bottom here */
+}
+
+.hero-button {
+  /* Add your background-color, color, text-decoration, padding, font-size, and border-radius here */
+}
+
+/* About Section Styles */
+#about {
+  /* Add your padding, text-align, and background-color here */
+}
+
+.about-content {
+  /* Add your display, align-items, and justify-content here */
+}
+
+.profile-image {
+  /* Add your width, border-radius, and margin-right here */
+}
+
+.about-text {
+  /* Add your font-size here */
+}
+
+/* Services Section Styles */
+#services {
+  /* Add your padding and text-align here */
+}
+
+.service {
+  /* Add your margin-bottom here */
+}
+
+.service-icon {
+  /* Add your width and margin-bottom here */
+}
+
+.service-title {
+  /* Add your font-size and margin-bottom here */
+}
+
+.service-description {
+  /* Add your font-size here */
+}
+
+/* Contact Section Styles */
+#contact {
+  /* Add your padding, text-align, and background-color here */
+}
+
+.form-group {
+  /* Add your margin-bottom here */
+}
+
+label {
+  /* Add your display, font-size, font-weight, and margin-bottom here */
+}
+
+input,
+textarea {
+  /* Add your width, padding, font-size, and border-radius here */
+}
+
+.form-button {
+  /* Add your background-color, color, border, padding, font-size, border-radius, and cursor here */
+}
+
+/* Footer Styles */
+footer {
+  /* Add your background-color, padding, and text-align here */
+}
+
+footer p {
+  /* Add your color, font-size, and margin here */
+}

@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+}
+
+h1 {
+    color: #ecf0f1;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+/* Flexbox Styles */
+#flexbox-section {
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-item {
+    background-color: #3498db;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: calc(33.33% - 20px);
+}
+
+/* Grid Styles */
+#grid-section {
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #3498db;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Responsive Styles */
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-item {
+        flex-basis: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+}

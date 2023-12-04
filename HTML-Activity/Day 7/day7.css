@@ -1,0 +1,123 @@
+/* Reset some default styles for cross-browser consistency */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.site-title {
+    margin: 0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #eee;
+    padding: 50px;
+}
+
+.hero-title {
+    color: #333;
+}
+
+.hero-subtitle {
+    color: #555;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About section styles */
+#about {
+    padding: 50px;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+/* Services section styles */
+#services {
+    background-color: #eee;
+    padding: 50px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service-icon {
+    margin-bottom: 10px;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

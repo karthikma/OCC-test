@@ -1,0 +1,11 @@
+.col-1 {
+    border: 1px solid orange;
+}
+
+.container {
+    border: 1.5px solid red;
+}
+
+.col {
+    border: 1.5px solid blue;
+}
