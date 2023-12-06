@@ -88,3 +88,56 @@ console.log("a: ", a);
 
 a /= b; // a = a / b
 console.log("a: ", a);
+
+//COMPARISON OPERATORS
+// --- COMPARES TWO VALUES; RETURNS BOOLEAN VALUES [ TRUE OR FALSE ]
+
+/*
+    Equal [ = ] ---> true if the operands are equal
+    Not Equal [ != ] ---> true if the operands are not equal
+    Strict Equal [ === ] ---> true if the operands are equal and have the same type
+    Strict Not Equal [ !=== ] ---> true if the operands are not equal, or have different types
+    Greater than [ x > y ] ---> true if the left operand is greater than the right operand
+    Greater than or equal [ x >= y ] ---> true if the left operand is greater than or equal to the right operand
+    Less than [ x < y ] ---> true if the left operand is less than the right operand
+    Less than or equal	[ x <= y ] ---> true if the left operand is less than or equal to the right operand
+*/
+
+console.log("=== COMPARISON OPERATORS ===")
+
+console.log(9 == 9); //true
+console.log(9 != 20); //true
+console.log(2 > 10); //false
+console.log(2 < 10); //true
+console.log(5 >= 10); //false
+console.log(10 >= 10); //true
+
+//LOGICAL OPERATORS
+// --- combine boolean values and logical operators to evaluate conditions
+
+/*
+Logical AND [ x && y ] --> returns true if all operands are true, else returns false
+Logical OR	[ x || y ] --> returns true if one of the operands is true, else returns false
+Logical NOT	[ !x ] --> Reverse the result: returns true if false and vice versa
+*/
+
+let sunny = true;
+let warm = false;
+
+console.log("=== LOGICAL OPERATORS");
+
+console.log("sunny && warm:", sunny && warm); //false
+console.log("sunny || warm:", sunny || warm); //true
+console.log("!sunny", !sunny); //false
+
+console.log(true && false); //false
+console.log(false || false); //false
+console.log(!true); //false
+
+console.log("=== Short activity ===");
+console.log(19 % 3);
+console.log(10 == 3);
+console.log(10 !== 10);
+console.log(2 < "10");
+console.log((false && true) || false);
+
